@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:monospace;
+    Margin:10;
+}
+.header{
+    text-align: center;
+    color: rgb(238, 8, 8);
+}
+.button{
+    background-color: rgb(186, 130, 238);
+    margin: 2px 5px;
+    padding: 8px 15px;
+    text-align: center;
+}
+.section{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.left{
+    flex:10%;
+}
+
+.loginbox{
+    padding: 5px;
+    color: rgb(255, 30, 0);
+    border-radius: 20px;
+    text-align: center;
+    background-color:rgb(197, 189, 189);
+    /*margin: 100px;
+    width: 300px;*/
+}
+
+.inputbox{
+    background-color: #000;
+    display:block;
+    margin:20px auto;
+    text-align: center;
+    border:2px solid #6c5ce7;
+    border-radius: 25px;
+    padding: 14px;
+    outline: none;
+    color: white;
+
+}
+
+.inputbox:focus{
+    width: 300px;
+}
+.yell{
+    border: 0;
+    width: 80px;
+    background:#000 ;
+    display:block;
+    margin:20px auto;
+    text-align: center;
+    border:2px solid #6c5ce7;
+    border-radius: 25px;
+    padding: 14px;
+    outline: none;
+    color: white;
+
+}
+
+.yell:hover{
+background: #81ecec;
+
+}
+
+
+.right{
+    flex:10%;
+
+}
+.outbox{
+    padding: 5px;
+    color: rgb(230, 228, 113);
+    border-radius: 20px;
+    text-align: center;
+    background-color:rgb(212, 124, 190);
+    /*margin: 30%;
+    width: 300px;*/
+}
+
+.output{
+    background-color: rgb(230, 228, 113);
+    display:block;
+    margin:20px auto;
+    text-align: center;
+    border:2px solid #6c5ce7;
+    border-radius: 25px;
+    padding: 14px;
+    outline: none;
+    color: white;
+}
+
+.output:focus{
+    width: 300px;
+}
+.take{
+    border: 0;
+    width: 80px;
+    background:rgb(230, 228, 113) ;
+
+    margin:20px auto;
+    text-align: center;
+    border:2px solid #6c5ce7;
+    border-radius: 25px;
+    padding: 14px;
+
+    color: #000;
+
+}
+
+.take:hover{
+background: #81ecec;
+
+}
+
+.middle{
+    flex:10%;
+}
+#pic{
+   text-align: center;
+   }
+ 
